@@ -33,3 +33,28 @@ const res2 = order.map(item => {
 }); 
 console.log(res2);
 console.log(order);
+
+
+
+function solution(array) {
+	let res = array.map(item => {
+		return {
+			...item,
+			taxes: Math.trunc( item.price * .19)
+		}
+	})
+	return res;
+}; 
+const productos = [
+	{
+		name: "Producto 1",
+		price: 1000,
+		stop: 10
+	},
+	{
+		name: "Producto 1",
+		price: 2011,
+		stop: 10
+	}
+];
+console.log(solution(productos));
