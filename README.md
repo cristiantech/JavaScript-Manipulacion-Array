@@ -46,3 +46,32 @@ const rta = words.filter((element) => element.length >= 6);
 // en ambos casos, el resultado:
 > [ 'exuberant' ]
 ```
+#### Reduce
+  El metodo reduce un aaray a un solo elemento
+#### Some
+  Devuelve un valor verdadero o falso
+
+#### Every
+  Devuelve true o false de un grupo de datos
+
+#### Find
+  Devuelve el primer valor encontrado
+
+#### findIndex
+  Devuelve la posición del item que se enecuntre bscando
+
+#### includes
+  El método includes() determina si una array incluye un determinado elemento, devuelve true o false según corresponda.
+
+#### JOIN
+  para unir los arrays con algun string
+
+#### splice
+  Permite generar un array por algun espacio o carcter especial
+
+#### flat y FlatMap
+  Permite arreglar un arary dentro de un array
+
+#### Sort
+
+
